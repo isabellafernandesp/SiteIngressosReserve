@@ -1,0 +1,186 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .content {
+        margin-top: 20px;
+    }
+    .jumbotron {
+        background-color: lightgray;
+        padding: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+
+    .login {
+        margin-top: 20px;
+        align-self: center;
+        min-height: 70%;
+        width: 100%;
+    }
+
+    .login-content {
+        margin: 0 auto;
+        background-color: lightgray;
+        align-self: center;
+        width: 300px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        padding: 40px;
+    }
+
+    .logado {
+        align-items:flex-end;
+    }
+
+    .txtEfetueLogin {
+        width: 100%;
+    }
+
+    .txtEfetueLogin p {
+        text-align: center;
+        margin: 10px 0px;
+        font-size: 16px;
+    }
+
+    .login-content input {
+        min-width: 220px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        background-color: #FFF;
+    }
+
+    .cadastrousuario {
+        margin-top: 20px;
+        line-height: 1.42857143;
+        width: 100%;
+    }
+
+    .cadastrousuario-content {
+        margin: 0 auto;
+        background-color: lightgray;
+        width: 50%;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        padding: 10px 15px;
+    }
+
+    .tituloCadastroUsuario {
+        width: 100%;
+    }
+
+    .tituloCadastroUsuario p {
+        text-align: center;
+        margin: 10px 0px;
+        font-size: 16px;
+    }
+
+    .tabelaCadastro {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .tabelaCadastro p {
+        min-height: 62.64px;
+    }
+
+    .tabelaCadastro select {
+        height: 100%;
+    }
+
+    .tabelaCadastro input {
+        width: 90%;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .linhaBotaoCadastrarUsuario {
+        text-align: center;
+    }
+
+    #cadastrarUsuario {
+        margin: 0 auto;
+        background-color: #fff;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .btnCadastrarUsuario {
+        width: 40%;
+        margin-bottom: 15px;
+    }
+
+    .SexoUsuario {
+        width: 90%;
+        min-height: 24.86px;
+    }
+
+    .lblCampoObrigatorio {
+        color: red;
+        font-size: 12px;
+    }
+
+    .comprarIngresso {
+        margin-top: 20px;
+        line-height: 1.42857143;
+        width: 100%;
+    }
+
+    .comprarIngresso-content {
+        margin: 0 auto;
+        background-color: lightgray;
+        width: 30%;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        padding: 10px 15px;
+    }
+
+    .txtComprarIngresso {
+        width: 100%;
+    }
+
+    .txtComprarIngresso p {
+        text-align: center;
+        margin: 10px 0px;
+        font-size: 16px;
+    }
+
+    .tabelaCartao {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .tabelaCartao input {
+        width: 100%;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+}
